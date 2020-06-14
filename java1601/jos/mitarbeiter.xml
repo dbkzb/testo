@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_161" class="java.beans.XMLDecoder">
+ <object class="jos.Mitarbeiter">
+  <void property="adresse">
+   <object class="jos.Adresse">
+    <void property="ort">
+     <string>Ratingen</string>
+    </void>
+    <void property="plz">
+     <string>40880</string>
+    </void>
+    <void property="strasze">
+     <string>Hauptstr. 12</string>
+    </void>
+   </object>
+  </void>
+  <void property="geburtstag">
+   <object class="java.util.Date">
+    <long>-3600000</long>
+   </object>
+  </void>
+  <void property="id">
+   <int>101</int>
+  </void>
+  <void property="kontakte">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="jos.Mail">
+      <void property="mailAdresse">
+       <string>hugo.meier@xyz.de</string>
+      </void>
+      <void property="timestamp">
+       <object class="java.util.Date">
+        <long>1522322952260</long>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="jos.Telefon">
+      <void property="telefonNummer">
+       <string>02102/112233</string>
+      </void>
+      <void property="timestamp">
+       <object class="java.util.Date">
+        <long>1522322952260</long>
+       </object>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="name">
+   <string>Meier, Hugo</string>
+  </void>
+  <void property="passwort">
+   <string>blubla</string>
+  </void>
+ </object>
+ <object class="jos.Mitarbeiter">
+  <void property="adresse">
+   <object class="jos.Adresse">
+    <void property="ort">
+     <string>Ratingen</string>
+    </void>
+    <void property="plz">
+     <string>40880</string>
+    </void>
+    <void property="strasze">
+     <string>Dorfstr. 5</string>
+    </void>
+   </object>
+  </void>
+  <void property="geburtstag">
+   <object class="java.util.Date">
+    <long>-277088400000</long>
+   </object>
+  </void>
+  <void property="id">
+   <int>102</int>
+  </void>
+  <void property="kontakte">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="jos.Mail">
+      <void property="mailAdresse">
+       <string>otto.schmitz@web.de</string>
+      </void>
+      <void property="timestamp">
+       <object class="java.util.Date">
+        <long>1522322952260</long>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="jos.Mail">
+      <void property="mailAdresse">
+       <string>otto.schmitz@gmx.de</string>
+      </void>
+      <void property="timestamp">
+       <object class="java.util.Date">
+        <long>1522322952260</long>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="jos.Telefon">
+      <void property="telefonNummer">
+       <string>02102/445566</string>
+      </void>
+      <void property="timestamp">
+       <object class="java.util.Date">
+        <long>1522322952260</long>
+       </object>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="name">
+   <string>Schmitz, Otto</string>
+  </void>
+  <void property="passwort">
+   <string>blablu</string>
+  </void>
+ </object>
+</java>
