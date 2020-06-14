@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repertoire>
+    <item year="1982">
+	    <artist>Alan Parsons Project</artist>
+	    <title>Eye In The Sky</title>
+	    <genre>Progressive Rock</genre>
+    </item>
+    <item year="1984">
+	    <artist>Bronski Beat</artist>
+	    <title>Smalltown Boy</title>
+	    <genre>Synthie Pop</genre>
+    </item>
+    <item year="2009">
+	    <artist>a-ha</artist>
+	    <title>Foot Of The Mountain</title>
+	    <genre>Pop</genre>
+    </item>
+    <item year="2016">
+	    <artist>Calvin Harris</artist>
+	    <title>My Way</title>
+	    <genre>Elektropop</genre>
+    </item>
+</repertoire>
