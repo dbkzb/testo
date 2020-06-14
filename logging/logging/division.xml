@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2011-06-16T09:56:22</date>
+  <millis>1308210982378</millis>
+  <sequence>1</sequence>
+  <logger>global</logger>
+  <level>SEVERE</level>
+  <class>logging.Calculator</class>
+  <method>divide</method>
+  <thread>10</thread>
+  <message>Division by zero.</message>
+  <exception>
+    <message>java.lang.ArithmeticException: / by zero</message>
+    <frame>
+      <class>logging.Calculator</class>
+      <method>divide</method>
+      <line>13</line>
+    </frame>
+    <frame>
+      <class>logging.Launcher</class>
+      <method>main</method>
+      <line>42</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2011-06-16T09:56:22</date>
+  <millis>1308210982378</millis>
+  <sequence>2</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>logging.Launcher</class>
+  <method>main</method>
+  <thread>10</thread>
+  <message>Shutdown application.</message>
+</record>
+</log>
